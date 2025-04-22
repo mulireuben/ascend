@@ -69,16 +69,16 @@ const AppHeader = () => {
                   <NavLink onClick={onClose} to='/'>Home</NavLink>
                 </li>
                 <li>
-                  <NavLink onClick={onClose} to='/About'>About Us</NavLink>
+                  <NavLink onClick={onClose} to='/about'>About Us</NavLink>
                 </li>
                 <li>
-                  <NavLink onClick={onClose} to='/Shop'>Wins</NavLink>
+                  <NavLink onClick={onClose} to='/wins'>Wins</NavLink>
                 </li>
                 <li>
-                  <NavLink onClick={onClose} to='/Faq'>Services</NavLink>
+                  <NavLink onClick={onClose} to='/services'>Services</NavLink>
                 </li>
                 <li>
-                  <NavLink onClick={onClose} to='/Contact'>Chat Me</NavLink>
+                  <NavLink onClick={onClose} to='/Chatme'>Chat Me</NavLink>
                 </li>
               </ul>
             </nav>
@@ -88,9 +88,9 @@ const AppHeader = () => {
           <ul>
             <li><NavLink to='/'>Home</NavLink></li>
             <li><NavLink to='/About'>About Us</NavLink></li>
-            <li><NavLink to='/Shop'>Wins</NavLink></li>
-            <li><NavLink to='/Faq'>Services</NavLink></li>
-            <li><NavLink to='/Contact'>Chat Me</NavLink></li>
+            <li><NavLink to='/wins'>Wins</NavLink></li>
+            <li><NavLink to='/services'>Services</NavLink></li>
+            <li><NavLink to='/Chatme'>Chat Me</NavLink></li>
           </ul>
         </nav>
       </div>
